@@ -372,116 +372,118 @@ footer{
 
 
 
-
-
-
+/* Mobile View Styles */
 @media screen and (max-width: 426px) {
-    nav, .menu-container ul{
+    /* Navigation and Menu */
+    nav, .menu-container ul {
         flex-direction: column;
         margin-bottom: 20px;
     }
-    .logo-container{
+
+    /* Logo Container */
+    .logo-container {
         margin-bottom: 30px;
     }
-    .logo-container h3{
+    .logo-container h3 {
         font-size: 1.3rem;
     }
-    .logo-container img{
+    .logo-container img {
         width: 50%;
         height: 80%;
     }
 
-
-    .hero-container{
+    /* Hero Container */
+    .hero-container {
         flex-direction: column-reverse;  
     }
-    .hero-image-container{
+    .hero-image-container {
         width: 100%;
         padding: 20px;
     }
-    .hero-image-containe img{
+    .hero-image-container img {
         width: 80%;
         height: 80%;
     }
-    .hero-trxt-container{
+    .hero-trxt-container {
         width: 100%;
         margin: auto;
     }
-    .hero-trxt-container h2{
-        font-size:35px ;
+    .hero-trxt-container h2 {
+        font-size: 35px;
     }
-    .hero-trxt-container h1{
+    .hero-trxt-container h1 {
         font-size: 70px;
     }
-    .hero-trxt-container p{
+    .hero-trxt-container p {
         font-size: 12px;
     }
-    .hero-two-btn{
+    .hero-two-btn {
         padding: 8px 25px;
-        font-size: 12;
+        font-size: 12px;
     }
 
-
-    .online-image{
+    /* Online Image Section */
+    .online-image {
         display: grid;
         grid-template-columns: 1fr;
     }
-    .one-card{
+    .one-card {
         width: 80vw;
     }
-    .online-text h3{
+    .online-text h3 {
         font-size: 22px;
     }
-    .online-text p{
+    .online-text p {
         font-size: 10px;
     }
 
-    .play{
-        /* flex-direction: column; */
+    /* Play Section */
+    .play {
+        /* flex-direction: column; (Note: This line is commented out) */
     }
-    .play-tex-tevt h3{
-       font-size: 80px; 
-       font-weight: 700;
-       display: flex;
-       justify-content: center;
-       align-items: center;
+    .play-text h3 {
+        font-size: 80px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-    .play-image{
+    .play-image {
         height: 400px;
         width: 80vw;
         margin: auto;
     }
-    .short-img{
+    .short-img {
         position: absolute;
         left: -20px;
         bottom: 15px;
     }
 
-    .games-container{
+    /* Games Container */
+    .games-container {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
-
-    .footer-container{
+    /* Footer Container */
+    .footer-container {
         padding: 40px 20px;
     }
-    .first-text1,.footer-last,.first-text2{
+    .first-text1, .footer-last, .first-text2 {
         font-size: 10px;
         font-weight: 400;
     }
-    .first-text1,.first-text-icon{
+    .first-text1, .first-text-icon {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    .first-text2{
+    .first-text2 {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-    .play-text{
+    .play-text {
         text-align: center;
         padding: 80%;
         margin-bottom: 50px;
     }
-
 }
