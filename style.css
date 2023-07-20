@@ -60,14 +60,14 @@ nav{
     margin: 0rem 0.5rem;
 }
 
-/* hero section styles */
-.hero-container{
+/* goat section styles */
+.goat-container{
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 1200px;
 }
-.hero-trxt-container{
+.goat-trxt-container{
     width: 50%;
     height:100vh;
     background-position: center;
@@ -81,13 +81,13 @@ nav{
     background-size: cover;
 
 }
-.hero-trxt-container h2{
+.goat-trxt-container h2{
     color: #0B0223;
     font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
 }
-.hero-trxt-container h1{
+.goat-trxt-container h1{
     color: #0B0223;
     font-size: 90px;
     font-weight: 800;
@@ -97,13 +97,13 @@ nav{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.hero-text-container-text p{
+.goat-text-container-text p{
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
     margin: 15px 0px ;
 }
-.hero-two-btn{
+.goat-two-btn{
     color: #FFF;
     font-size: 16px;
     font-weight: 600;
@@ -118,11 +118,15 @@ nav{
 #btn-one{
     background-color: #4EC5F7;
 }
-.hero-image-container{
+.zero-image-container{
     width: 50%;
 }
 
+
+
 /* online games stylis */
+
+
 .online-games{
     max-width: 1200px;
     margin: auto;
@@ -170,7 +174,8 @@ nav{
     font-weight: 500;
 }
 
-/* just try */
+
+/* bonus */
 .aaa{
     font-size: 1.5rem;
             position: absolute;
@@ -192,45 +197,107 @@ nav{
 
 
 
-/* play styles */
 
-.play{
+
+
+
+/* Section 1 */
+.play {
     display: flex;
     max-width: 1200px;
     margin: 100px auto;
 }
-.play-text-tevt{
+
+.play-text-test {
     text-align: end;
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding-right: 10vw;
     margin-bottom: 100px;
-} 
-.play-text-tevt h3 {
+}
+
+.play-text-test h3 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 30px;
 }
-.play-h3{
+
+.play-h3 {
     background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.play-text-para{
+
+.play-text-para {
     font-size: 16px;
     font-weight: 400;
-    color: #534C64;;
+    color: #534C64;
 }
-.play-image{
+
+.play-image {
     position: relative;
 }
-.short-img{
+
+.short-img {
     position: absolute;
     left: -7vw;
     bottom: -16vh;
 }
+
+.short-img2 { /* Class name changed from ".short-img" to ".short-img2" */
+    position: absolute;
+    left: -7vw;
+    bottom: -16vh;
+}
+
+/* Section 2 */
+.play.play2 { /* Class name changed from ".play" to ".play2" */
+    display: flex;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.play-text2.play-text { /* Class name changed from ".play-text-test" to ".play-text2" */
+    text-align: end;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 10vw;
+    margin-bottom: 100px;
+}
+
+.play-text2 h3 { /* Class name changed from ".play-text-test h3" to ".play-text2 h3" */
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.play-text2 .play-h3 { /* Class name changed from ".play-h3" to ".play-text2 .play-h3" */
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-text-para { /* No change in class name for the paragraph */
+    font-size: 16px;
+    font-weight: 400;
+    color: #534C64;
+}
+
+.play-image {
+    position: relative;
+}
+
+.short-img2 { /* Class name changed from ".short-img" to ".short-img2" */
+    position: absolute;
+    left: -7vw;
+    bottom: -16vh;
+}  
+
+
 
 
 /* game section styles */
@@ -328,6 +395,11 @@ footer{
     text-align: center;
 
 }
+.first-text-icon{
+    
+    font-size: 40px;
+    padding-top: 60px;
+}
 .first-text-icon button{
     border: none;
     padding: 8px 12px;
@@ -336,6 +408,7 @@ footer{
 .first-text-icon button p .fa-brands{
     font-size: 30px;
     background: none;
+
 }
 
 
@@ -392,32 +465,32 @@ footer{
         height: 80%;
     }
 
-    /* Hero Container */
-    .hero-container {
+    /* goat Container */
+    .goat-container {
         flex-direction: column-reverse;  
     }
-    .hero-image-container {
+    .goat-image-container {
         width: 100%;
         padding: 20px;
     }
-    .hero-image-container img {
+    .goat-image-container img {
         width: 80%;
         height: 80%;
     }
-    .hero-trxt-container {
+    .goat-trxt-container {
         width: 100%;
         margin: auto;
     }
-    .hero-trxt-container h2 {
+    .goat-trxt-container h2 {
         font-size: 35px;
     }
-    .hero-trxt-container h1 {
+    .goat-trxt-container h1 {
         font-size: 70px;
     }
-    .hero-trxt-container p {
+    .goat-trxt-container p {
         font-size: 12px;
     }
-    .hero-two-btn {
+    .goat-two-btn {
         padding: 8px 25px;
         font-size: 12px;
     }
@@ -441,7 +514,7 @@ footer{
     .play {
         /* flex-direction: column; (Note: This line is commented out) */
     }
-    .play-text h3 {
+    .play-h3 {
         font-size: 80px;
         font-weight: 700;
         display: flex;
